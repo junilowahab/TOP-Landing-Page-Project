@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 400px;
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 60px;
+}
+
+.header-logo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo h3{
+    font-size: 24px;
+}
+
+.header-logo ul{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+
+.header-logo ul a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.header-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.header-text h1{
+    font-size: 48px;
+    margin-top: 20px;
+}
+
+.header-text p{
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.header-text button{
+    align-self: flex-start;
+    background-color: rgb(47, 47, 224);
+    color: white;
+    border: 2px solid rgb(67, 67, 109);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.header-image{
+    height: 250px;
+    width: 600px;
+    background-image: url(./markus-spiske-BfphcCvhl6E-unsplash\ \(1\).jpg);
+    background-size: cover;
+}
+
+.highlight-tiles{
+    display: flex;
+    flex-direction: column;
+}
+
+.highlight-tiles h2{
+    align-self: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.tiles-container{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.tiles-content{
+    width: 150px;
+    text-align: center;
+}
+
+.tiles{
+    height: 150px;
+    width: 150px;
+    border: 2px solid;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    filter: grayscale(1);
+    transition: .5s;
+}
+
+.tiles:hover{
+    filter: grayscale(0);
+}
+
+.tiles-content h5{
+    padding: 10px;
+}
+
+.tiles.LBJ{
+    background-image: url(./lbj.jpeg);
+    background-size: cover;
+    background-position: center;
+    border: 2px solid gold;
+}
+
+.tiles.GA{
+    background-image: url(./images.jpeg);
+    background-size: cover;
+    background-position: center;
+    border: 2px solid green;
+}
+
+.tiles.KI{
+    background-image: url(./kyrie_irving.jpg_1159711837.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 2px solid black;
+}
