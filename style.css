@@ -138,3 +138,21 @@
     background-position: center;
     border: 2px solid black;
 }
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    background-color: #E5E7EB;
+}
+
+.quote-container{
+    font-size: 36px;
+}
+
+.sam{
+    font-size: 20px;
+    align-self: flex-end;
+}
