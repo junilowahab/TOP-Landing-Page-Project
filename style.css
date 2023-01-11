@@ -59,11 +59,11 @@
     line-height: 30px;
 }
 
-.header-text button{
+button{
     align-self: flex-start;
     background-color: rgb(47, 47, 224);
     color: white;
-    border: 2px solid rgb(67, 67, 109);
+    border: 1px solid rgb(67, 67, 109);
     padding: 5px 10px;
     border-radius: 5px;
 }
@@ -155,4 +155,33 @@
 .sam{
     font-size: 20px;
     align-self: flex-end;
+}
+
+.sign-up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 100px
+}
+
+.sign-up div{
+    border: 2px solid white;
+    padding: 30px 70px;
+    background-color: rgb(47, 47, 224);
+    border-radius: 10px;
+    color: white;
+}
+
+.sign-up button{
+    border-color: white;
+    
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #1F2937;
+    color: white;
 }
