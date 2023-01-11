@@ -71,7 +71,7 @@
 .header-image{
     height: 250px;
     width: 600px;
-    background-image: url(./markus-spiske-BfphcCvhl6E-unsplash\ \(1\).jpg);
+    background-image: url(./images/markus-spiske-BfphcCvhl6E-unsplash\ \(1\).jpg );
     background-size: cover;
 }
 
@@ -119,21 +119,21 @@
 }
 
 .tiles.LBJ{
-    background-image: url(./lbj.jpeg);
+    background-image: url(./images/lbj.jpeg);
     background-size: cover;
     background-position: center;
     border: 2px solid gold;
 }
 
 .tiles.GA{
-    background-image: url(./images.jpeg);
+    background-image: url(./images/images.jpeg);
     background-size: cover;
     background-position: center;
     border: 2px solid green;
 }
 
 .tiles.KI{
-    background-image: url(./kyrie_irving.jpg_1159711837.jpg);
+    background-image: url(./images/kyrie_irving.jpg_1159711837.jpg);
     background-size: cover;
     background-position: center;
     border: 2px solid black;
