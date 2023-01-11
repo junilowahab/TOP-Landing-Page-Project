@@ -35,6 +35,88 @@
 .header-logo ul a{
     text-decoration: none;
     color: aliceblue;
+    transition: .3s;
+}
+
+#lbj:hover{
+    color: gold;
+}
+
+#lbj{
+    display: inline-block;
+    position: relative;
+}
+
+#lbj::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: gold;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+#lbj:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+#ga:hover{
+    color: green;
+}
+
+#ga{
+    display: inline-block;
+    position: relative;
+}
+
+#ga::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: green;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+#ga:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+#ki:hover{
+    color: black;
+}
+
+#ki{
+    display: inline-block;
+    position: relative;
+}
+
+#ki::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+#ki:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
 }
 
 .header-content{
@@ -52,6 +134,7 @@
 .header-text h1{
     font-size: 48px;
     margin-top: 20px;
+    color: red;
 }
 
 .header-text p{
@@ -78,12 +161,18 @@ button{
 .highlight-tiles{
     display: flex;
     flex-direction: column;
+    background-image: url(./images/wp6389471-4k-nba-desktop-wallpapers.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    height: 700px;
+    justify-content: center;
+    filter: grayscale(0);
 }
 
 .highlight-tiles h2{
     align-self: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    /* margin-top: 30px; */
+    margin-bottom:100px;
     font-size: 36px;
     font-weight: bolder;
 }
@@ -91,7 +180,7 @@ button{
 .tiles-container{
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 100px;
 }
 
 .tiles-content{
@@ -112,6 +201,7 @@ button{
 
 .tiles:hover{
     filter: grayscale(0);
+    transform: scale(150%);
 }
 
 .tiles-content h5{
@@ -146,6 +236,12 @@ button{
     align-items: center;
     padding: 100px;
     background-color: #E5E7EB;
+    background-image: url(./images/Stephen-A-Smith-051222-GETTY-FTR.jpg);
+    background-attachment: fixed;
+    height: 700px;
+    background-position: center;
+    color: wheat;
+    text-shadow: 2px 2px 10px wheat;
 }
 
 .quote-container{
